@@ -65,4 +65,29 @@ number of preds got right / TP + FP
 # Recall : truth as base-line 
 TP / TP + FN 
 
-# F1 Score: harmonic mean of precision and recall: over all health of our model 
+# F1 Score: harmonic mean of precision and recall: over all health of our model
+
+# Overfitting 
+when a line can be fit better to training data points/datasets but not in testing dataset 
+we day that line is overfit
+
+- regularization 
+- boosting 
+- bagging 
+
+Underfitting: Not enough time / not enough dataset
+solution:
+increase time 
+increase dataset 
+pick different model 
+
+Overfitting: The model performs very well on training data, but badly on testing data.
+ Causes:
+Model is too complex (too many layers/parameters)
+
+Too little training data
+
+Noisy data (contains errors or randomness)
+
+Training for too long
+
