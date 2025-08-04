@@ -33,7 +33,7 @@ Ensembling and bagging
           - gradient boost
           - xgboost 
           
-      - Support Vector Machine (SVM): Can be adapted for both classification and regression tasks. Powerful in high dimention when higher number of features
+      - Support Vector Machine (SVM): Can be adapted for both classification and regression tasks. Powerful in high dimension when higher number of features
         - use of kernal functions: turn features into new complex features, different types of functions 
       - K-Nearest Neighbors (KNN): Classifies based on majority label of nearby points. predict average of its k nearest neighbours, k is hyper-parameter 
    
