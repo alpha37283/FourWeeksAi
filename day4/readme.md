@@ -34,7 +34,12 @@ Ensembling and bagging
           - xgboost 
           
       - Support Vector Machine (SVM): Can be adapted for both classification and regression tasks. Powerful in high dimension when higher number of features
-        - use of kernal functions: turn features into new complex features, different types of functions 
+        - use of kernal functions: turn features into new complex features, different types of functions
+      - https://www.youtube.com/watch?v=_YPScrckx28 visually explained 
+      - 
+      - 
+   
+
       - K-Nearest Neighbors (KNN): Classifies based on majority label of nearby points. predict average of its k nearest neighbours, k is hyperparameter 
         - 1. Distance Metric: distance between query point and other data point need to be calculated
         - 2. Value of k: number of neighbours to check for a point e.g., k = 1 for one class it will be checked
