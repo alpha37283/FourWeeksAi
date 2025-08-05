@@ -1,4 +1,4 @@
-# supervised vs unsupervised
+~~# supervised vs unsupervised
 - only difference is in data. 
 - labeled data vs unlabeled data
 - supervised => classification or regression 
@@ -35,8 +35,14 @@ Ensembling and bagging
           
       - Support Vector Machine (SVM): Can be adapted for both classification and regression tasks. Powerful in high dimension when higher number of features
         - use of kernal functions: turn features into new complex features, different types of functions 
-      - K-Nearest Neighbors (KNN): Classifies based on majority label of nearby points. predict average of its k nearest neighbours, k is hyper-parameter 
-   
+      - K-Nearest Neighbors (KNN): Classifies based on majority label of nearby points. predict average of its k nearest neighbours, k is hyperparameter 
+        - 1. Distance Metric: distance between query point and other data point need to be calculated
+        - 2. Value of k: number of neighbours to check for a point e.g., k = 1 for one class it will be checked
+               ---------Adv----------||------------disAdv---------
+              1. easy to implement   || scalability difficult
+              2. few hyperparams     || curse of dimensionality 
+              3. adaptable to new data ||  overfitting
+        
                       
 
 
