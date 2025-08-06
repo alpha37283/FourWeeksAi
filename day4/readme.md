@@ -1,4 +1,4 @@
-~~# supervised vs unsupervised
+# supervised vs unsupervised
 - only difference is in data. 
 - labeled data vs unlabeled data
 - supervised => classification or regression 
