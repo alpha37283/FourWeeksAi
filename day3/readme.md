@@ -68,8 +68,8 @@ TP / TP + FN
 # F1 Score: harmonic mean of precision and recall: over all health of our model
 
 # Overfitting 
-when a line can be fit better to training data points/datasets but not in testing dataset 
-we day that line is overfit
+when the model is performing better on training data set but not on testing data set  
+we say that line is overfitting
 
 - regularization 
 - boosting 
